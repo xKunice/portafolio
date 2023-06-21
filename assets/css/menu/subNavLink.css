@@ -1,4 +1,4 @@
-.menu__list--item{
+.subNav__link{
     display: flex;
     color:  #F0E6D2;
     align-items: center;
@@ -6,4 +6,7 @@
     opacity: 0.5;
     text-decoration: none;
     height: 2.875rem;
+}
+.subNav__link:hover{
+    opacity: 1;
 }

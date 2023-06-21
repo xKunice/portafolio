@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'Beaufort';
+    src: url(../../fonts/Beaufort-Regular.otf);
+}
+:root{
+    --html-background: rgb(1,10,19);
+    --text:#A09B8C;
+    --subtitle:#F0E6D2;
+    --remark: #C89b3C;
+    --divisiones:#5b5A56;
+    --fontPrincipal: 'Beaufort','sans-serif';
+    
+}
 html{
-    background-color: rgb(1, 10, 19);
-    color: #A09B8C;
+    font-family: var(--fontPrincipal);
+    background-color: var(--html-background);
+    color: var(--text) ;
 }
-h1{
-    color: #F0E6D2;
+.title{
+    display: none;
 }
-h3{
-    color: #C89b3C;
+.subTitle{
+    font-size: 2rem;
+    line-height: 1.08;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    text-transform:uppercase ;
+
+    color: var(--subtitle);
+
 }
