@@ -1,3 +1,11 @@
+const links = document.querySelectorAll("#menu a");
+links.forEach(link => {
+    link.addEventListener("click", action =>{
+        action.preventDefault();
+        let id = link.getAttribute("href");
+        goTo(id);
+    });
+});
 function goTo(id){
     let section = document.getElementById(id);
     if(section) {
