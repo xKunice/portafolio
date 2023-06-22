@@ -1,14 +1,14 @@
-.navP__gitHub{
+.container__CV{
     display: flex;
-    padding-left: 1rem;
-    gap: 1rem;
-    width: 100%;
+    width: auto;
     height: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    justify-content: flex-end;
     align-items: center;
     text-decoration: none;
     color: var(--subtitle);
-    border-right: 1px solid var(--divisiones);
 }
-.navP__gitHub:hover{
+.container__CV:hover{
     background-color: #1E282D;
 }

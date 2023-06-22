@@ -1,7 +1,6 @@
 .navPrincipal{
     display: grid;
     grid-template-columns: 1fr 7fr 2fr;
-    padding-left: 2.5rem;
     padding-right: 2.5rem;
     width: 100%;
     height: 5rem;

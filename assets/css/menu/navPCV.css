@@ -1,0 +1,7 @@
+.navP__CV{
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid var(--divisiones);
+    align-items: center;
+    padding-left: 2rem;
+}
