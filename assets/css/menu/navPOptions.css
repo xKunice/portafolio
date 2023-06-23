@@ -1,0 +1,17 @@
+.navP__options{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--subtitle);
+
+    border-right: 1px solid var(--divisiones);
+}
+.navP__options:hover{
+    background-color: #1E282D;
+}
