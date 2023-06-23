@@ -1,0 +1,11 @@
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top:  2.5rem;
+    padding: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    width: 100%;
+}

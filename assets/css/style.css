@@ -20,12 +20,26 @@ html{
     display: none;
 }
 .subTitle{
-    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-size: 3rem;
     line-height: 1.08;
+    text-align: center;
     letter-spacing: 0.01em;
     font-weight: 700;
     text-transform:uppercase ;
 
     color: var(--subtitle);
 
+}
+.text{
+    font-size: 1.8rem;
+    padding: 1rem 5rem .5rem 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    text-align: justify;
+
+}
+.remark{
+    color: var(--remark);
 }
