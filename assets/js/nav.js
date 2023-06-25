@@ -1,4 +1,4 @@
-const links = document.querySelectorAll("#menu a");
+const links = document.querySelectorAll("#subNav a");
 links.forEach(link => {
     link.addEventListener("click", action =>{
         action.preventDefault();
