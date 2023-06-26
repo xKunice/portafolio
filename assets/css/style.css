@@ -15,6 +15,7 @@ html{
     font-family: var(--fontPrincipal);
     background-color: var(--html-background);
     color: var(--text) ;
+    scroll-behavior: smooth;
 }
 .title{
     display: none;
