@@ -1,0 +1,8 @@
+.projects__container--img{
+    width: 53%;
+    transition: all .5s ;
+}
+.projects__container--img:hover{
+    width: 55%;
+
+}

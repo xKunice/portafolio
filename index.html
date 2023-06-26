@@ -43,6 +43,19 @@
     <link rel="stylesheet" href="assets/css/formation/formationDescription.css">
     <link rel="stylesheet" href="assets/css/formation/formationImg.css">
 
+    <link rel="stylesheet" href="assets/css/projects/projects.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsContainer.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsCard.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsContainerImg.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsImg.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsContainerDescription.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsTitle.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsSubtitle.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsList.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsListItem.css">
+    <link rel="stylesheet" href="assets/css/projects/projectsLink.css">
+
+
 </head>
 <body>
     <header class="menu">
@@ -164,26 +177,35 @@
                 </a>
             </div>
         </section>
-        
-
-
-
         <section class="projects" id="projects">
             <h2 class="subtitle">Proyectos</h2>
-            <a class="project__container" href="https://www.oracle.com/mx/education/oracle-next-education/">
-                <div class="project__card">
-                    <div class="project__container--img">
-                        <img class="project__img" src="assets/img/projects/encriptador.png" alt="">
+            <div class="projects__container" href="">
+                <div class="projects__card">
+                    <a class="projects__container--img" href="https://github.com/xKunice/Encriptador" target="_blank">
+                        <img class="projects__img" src="assets/img/projects/encriptador.png" alt="">
+                    </a>
+                    <div class="projects__container--description">
+                        <h3 class="projects__title">Encriptador y Desencriptador de texto</h3>
+                        <h4 class="projects__subtitle">lenguajes</h4>
+                        <ul class="projects__list">
+                            <li class="projects__list--item">HTML</li>
+                            <li class="projects__list--item">CSS</li>
+                            <li class="projects__list--item">JAVASCRIPT</li>
+                        </ul>
+                        <a href="https://github.com/xKunice/Encriptador" target="_blank" class="projects__link">
+                            <span>Ver Proyecto</span>
+                            <svg class="navP__icono" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#C89b3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#C89b3C" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></g></svg>
+                        </a>  
                     </div>
-                    <span class="project__container--description">
-                        <span class="project__description">Beca Oracle y AluraLatam</span>
-                    </span>
-                 </div>
-            </a>
+                </div>
+            </div>
 
         </section>
         <section class="contacto" id="contacto">
             <h2 class="subtitle">contacto</h2>
+            <form action="" id="contact">
+                <input type="text">
+            </form>
         </section>
 
     </main>

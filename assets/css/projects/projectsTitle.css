@@ -1,0 +1,5 @@
+.projects__title{
+    font-size: 2rem;
+    color: var(--remark);
+    text-transform: uppercase;
+}

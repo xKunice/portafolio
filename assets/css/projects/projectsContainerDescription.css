@@ -1,0 +1,6 @@
+.projects__container--description{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 5%;
+}

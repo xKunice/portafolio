@@ -1,0 +1,7 @@
+.projects__list{
+    display: flex;
+    flex-direction: column;
+    list-style: georgian;
+    color: #0AC8B9;
+    padding-left: 1rem;
+}
