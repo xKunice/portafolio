@@ -1,8 +1,12 @@
-.skills__card{
+.formation__card{
     display: flex;
     flex-direction: column;
     flex-wrap:wrap ;
     align-items: center;
     width: 25rem;
     transition: all .5s;
+}
+
+.formation__card:hover{
+    width: 26rem;
 }
