@@ -1,0 +1,6 @@
+.footer__section{
+    text-align: center;
+}
+.footer__section span{
+    color: var(--subtitle);
+}
