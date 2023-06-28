@@ -65,6 +65,7 @@
     <link rel="stylesheet" href="assets/css/contact/contactFormTArea.css">
     <link rel="stylesheet" href="assets/css/contact/contactImg.css">
     <link rel="stylesheet" href="assets/css/contact/contactFormSection.css">
+    <link rel="stylesheet" href="assets/css/contact/inputContainerInvalid.css">
 
     <link rel="stylesheet" href="assets/css/footer/footer.css">
     <link rel="stylesheet" href="assets/css/footer/footerSection.css">
@@ -224,19 +225,23 @@
                 <form class="contact__form" id="contact">
                     <div class="contact__form--section">
                         <label class="contact__form--label" for="name">Nombre Completo</label>
-                        <input class="contact__form--input"name="name" type="text" id="name" required>
+                        <input class="contact__form--input" name="name" type="text" id="name">
+                        <p id="nameMessageError"></p>
                     </div>
                     <div class="contact__form--section">
                         <label class="contact__form--label" for="email">Correo electronico</label>
-                        <input class="contact__form--input"name="email" type="email" id="email" required>
+                        <input class="contact__form--input"name="email" type="email" id="email">
+                        <p id="emailMessageError"></p>
                     </div>
                     <div class="contact__form--section">
                         <label class="contact__form--label" for="subject">Asunto</label>
                         <input class="contact__form--input"name="subject" id="subject" type="text">
+                        <p id="subjectMessageError"></p>
                     </div>
                     <div class="contact__form--section">
                         <label class="contact__form--label" for="message">Mensaje</label>
                         <textarea class="contact__form--textarea" name="message" id="message" cols="30" rows="10"></textarea>
+                        <p id="messageMessageError"></p>
                     </div>
                     <div class="contact__form--section">
                         <button class="contact__form--btn" type="submit">enviar</button>
@@ -262,7 +267,7 @@
             <span>Andres Betancourt</span>
         </div>
     </footer>
-    <script src="assets/js/contacto.js"></script>
+    <script src="assets/js/validaciones.js"></script>
 </body>
 </html>
 
