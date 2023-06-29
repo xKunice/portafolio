@@ -3,3 +3,9 @@
     width: 20%;
     height: 20%;
 }
+
+@media(max-width:768px){
+    .presentation__img{
+        width: 50%;
+    }
+}

@@ -7,3 +7,10 @@
     height: 3rem;
 
 }
+
+@media(max-width:768px){
+    .skills__container--description{
+        height: 2rem;
+    }
+
+}

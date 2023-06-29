@@ -3,3 +3,11 @@
     padding-right: 5rem;
     padding-bottom: 5rem;
 }
+
+@media(max-width:768px){
+   .formation{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-bottom: .5rem;
+   }
+}

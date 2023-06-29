@@ -3,3 +3,10 @@
     color: var(--remark);
     vertical-align: center;
 }
+
+@media(max-width:768px){
+    .hobbies__description{
+        font-size: 1.2rem;
+
+    }
+}
