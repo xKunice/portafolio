@@ -3,3 +3,8 @@
     color: var(--remark);
     text-transform: uppercase;
 }
+@media(max-width:768px){
+    .projects__title{
+        font-size: 1.6rem;
+    }   
+}
