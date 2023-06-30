@@ -6,3 +6,16 @@
     height: 100%;
     border-bottom: 2px solid var(--remark);
 }
+@media(max-width:600px){
+    .subNav__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .5s;
+        display: none;
+    }
+    #check:checked ~ .subNav__list{
+        display: flex;
+
+    }
+}

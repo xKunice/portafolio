@@ -6,3 +6,9 @@
     width: 25rem;
     transition: all .5s;
 }
+@media (max-width:425px){
+    .hobbies__card{
+        width: 70%;
+    }
+
+}

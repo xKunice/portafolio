@@ -5,3 +5,8 @@
     align-items: center;
     padding-left: 2rem;
 }
+@media(max-width:425px){
+    .navP__CV{
+        border: none;
+    }
+}

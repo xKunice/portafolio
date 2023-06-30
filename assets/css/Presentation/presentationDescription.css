@@ -7,9 +7,15 @@
     vertical-align: middle;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .presentation__description{
     font-size: 2.2em;
+    width: 80%;
+    }
+}
+@media (max-width:425px) {
+    .presentation__description{
+    font-size: 1.8em;
     width: 80%;
     }
 }

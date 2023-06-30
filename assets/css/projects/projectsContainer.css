@@ -3,3 +3,9 @@
     flex-direction: column;
     
 }
+@media (max-width:425px){
+    .projects__container{
+        width:100%;
+    }
+
+}

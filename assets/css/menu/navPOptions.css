@@ -15,3 +15,9 @@
 .navP__options:hover{
     background-color: #1E282D;
 }
+@media(max-width:425px){
+    .navP__options{
+        display: none;
+        width: 0;
+    }
+}

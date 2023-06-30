@@ -5,3 +5,9 @@
     align-items: center;
     width: 25rem;
 }
+
+@media (max-width:425px) {
+     .skills__card{
+      width: 70%;
+     }  
+}

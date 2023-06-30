@@ -10,3 +10,12 @@
 .formation__card:hover{
     width: 26rem;
 }
+@media (max-width:425px){
+    .formation__card{
+        width: 70%;
+    }
+    .formation__card:hover{
+        width: 75%;
+    }
+
+}

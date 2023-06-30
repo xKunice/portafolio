@@ -5,3 +5,10 @@
     gap:10% ;
     justify-content: center;
 }
+@media (max-width:425px){
+    .projects__card{
+        flex-direction: column;
+
+    }
+
+}

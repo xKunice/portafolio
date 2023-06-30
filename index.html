@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andres Betancourt - Portafolio</title>
+    <script src="https://kit.fontawesome.com/c3178f08d2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/menu/subNav.css">
     <link rel="stylesheet" href="assets/css/menu/subNavList.css">
     <link rel="stylesheet" href="assets/css/menu/subNavLink.css">
+    <link rel="stylesheet" href="assets/css/menu/checkbtn.css">
     <link rel="stylesheet" href="assets/css/Presentation/presentation.css">
     <link rel="stylesheet" href="assets/css/Presentation/presentationDescription.css">
     <link rel="stylesheet" href="assets/css/Presentation/presentationImg.css">
@@ -73,6 +75,8 @@
     <link rel="stylesheet" href="assets/css/footer/footerSection.css">
 
 
+    
+
 </head>
 <body>
     <header class="menu">
@@ -96,7 +100,12 @@
             </div>
         </nav>
         <nav class="subNav" id="subNav">
-            <ul class="subNav__list">
+            <div class="check__container">
+                <input type="checkbox" id="check" class="checkbox">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars hamburguer" style="color: #ffffff;"></i>
+                </label>
+                <ul class="subNav__list">
                 <li ><a class="subNav__link" href="#aboutMe">SOBRE MI</a></li>
                 <li ><a class="subNav__link" href="#skills">SKILLS</a></li>
                 <li ><a class="subNav__link" href="#hobbies">HOBBIES</a></li>
@@ -104,6 +113,16 @@
                 <li ><a class="subNav__link" href="#projects">PROYECTOS</a></li>
                 <li ><a class="subNav__link" href="#contact">CONTACTO</a></li>
             </ul>
+            </div>
+            
+            <!-- <ul class="subNav__list">
+                <li ><a class="subNav__link" href="#aboutMe">SOBRE MI</a></li>
+                <li ><a class="subNav__link" href="#skills">SKILLS</a></li>
+                <li ><a class="subNav__link" href="#hobbies">HOBBIES</a></li>
+                <li ><a class="subNav__link" href="#formation">FORMACION</a></li>
+                <li ><a class="subNav__link" href="#projects">PROYECTOS</a></li>
+                <li ><a class="subNav__link" href="#contact">CONTACTO</a></li>
+            </ul> -->
         </nav>
     </header>
     <main>
@@ -270,6 +289,8 @@
         </div>
     </footer>
     <script src="assets/js/validaciones.js"></script>
+   
+    
 </body>
 </html>
 

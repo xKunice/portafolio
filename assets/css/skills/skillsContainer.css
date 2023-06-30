@@ -5,3 +5,12 @@
     width: 100%;
 
 }
+@media (max-width:425px) {
+ .skills__container{
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+ }    
+}

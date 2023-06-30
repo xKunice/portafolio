@@ -4,8 +4,8 @@
     height: 20%;
 }
 
-@media(max-width:768px){
+@media(max-width:1024px){
     .presentation__img{
-        width: 50%;
+        width:50%;
     }
 }

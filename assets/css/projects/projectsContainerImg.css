@@ -11,4 +11,7 @@
     .projects__container--img{
         width: 100%;
     }
+    .projects__container--img:hover{
+        width: 100%;
+    }
 }

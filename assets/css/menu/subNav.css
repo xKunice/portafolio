@@ -16,3 +16,8 @@
     border-bottom: 1px solid rgb(60, 60, 65);
     
 }
+@media(max-width:425px){
+    .subNav{
+        flex-direction: column;
+    }
+}
